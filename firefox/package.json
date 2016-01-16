@@ -1,0 +1,17 @@
+{
+  "title": "Unblock Chinese Wikipedia",
+  "name": "zhwikiunblocked",
+  "version": "0.0.1",
+  "description": "This extension makes Chinese Wkipedia accessible inside China.",
+  "main": "index.js",
+  "author": "yinghuocho@gmail.com",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "BSD",
+  "icon": "icon32.png",
+  "keywords": [
+    "jetpack"
+  ]
+}

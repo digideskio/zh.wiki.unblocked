@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Unblock Chinese Wikipedia",
+  "description": "This extension makes Chinese Wikipedia accessible inside China.",
+  "version": "0.1",
+  
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://zh.wikipedia.org/*",
+    "*://wikipedia.org/*"
+  ],
+    
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "icons": {
+    "32": "icons/icon32.png",
+    "128": "icons/icon128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/icon32.png",
+    "default_title": "Unblock Chinese Wikipedia"
+  }
+}
